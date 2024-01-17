@@ -1,0 +1,483 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+ body{
+    width: 100%;
+    justify-content: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+ }
+ a{
+    text-decoration: none;
+ }
+
+
+ /* diseño nav*/
+
+
+ .navas{
+    background-color: yellow;
+}
+
+
+.nav-item a{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  nav img{
+    width: 10vw;
+    margin: 0vh;
+    margin-top: 0;
+    margin-left: 1vw;
+  }
+.nav-link :hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid yellow;
+}
+.desplegable{
+    width: 10;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 5px solid rgb(255, 255, 138);
+    gap: 1rem;
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 103, 0.445);
+    opacity: 0;
+    visibility: hidden;
+    transition: ease-in-out 300ms;
+}
+li:hover .desplegable{
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+.desplegable a{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+
+/* Diseño main del home*/
+
+
+  #main-index{
+    text-align: center left;
+    width: 100%;
+    height: 75vh;
+    margin: 0 auto;
+    background-color: black; 
+    background-image: url(../Home/imageneshome/mainfoto.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    padding: 10vh 0 0 0;
+    margin: 0%;
+  }
+  #main-index  img{
+    width: 100%;
+  }
+  main h1{
+    line-height: 16vh;
+    font-size: 7vw;
+    margin: 0% 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    align-items: center;
+  }
+
+  /* SECCION NOVEDADES*/
+
+
+  #novedades{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    padding: 0% 0% 3vh 0;
+    margin: 0;
+  }
+  #novedades h2{
+    padding-top: 2%;
+    margin-bottom: 2vh;
+    margin-top: 0.5%;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 10vw;
+  }
+.imagenes-conteiner{
+    width: 100%;
+    display: flex;
+    gap: 3vw;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-content: space-around;
+}
+  
+#peliNovedad img{
+    width: 24vw;
+    height: 60vh;
+    margin:0;
+    border: 1vw solid;
+    padding: 1%;
+    border-color: black;
+  }
+
+
+/* SECCION VIVI CLASSIQ*/
+
+
+#info{
+    background-image: url(../Home/imageneshome/fondobutacas.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    padding: 0% 0 1% 0;
+    margin: 0;
+    width: 100%;
+    height: 70hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#info h2{
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2vh 0 0 0 ;
+    font-size: 9vw;
+}
+#info .info-conteiner{
+    background-color: rgba(255, 255, 0, 0.466);
+    width: 85vw;
+    height: 65vh;
+    text-align: center;
+    margin: 3vh 0% 5vh 0%;
+    padding: 2%;
+    border: 1vw solid yellow    ;
+
+}
+#info p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 7vh;
+    font-size: 1.7vw;
+    justify-content: center;
+}
+
+/*FOOTER*/
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+}
+.contacto-conteiner{
+    padding: 2vw;
+}
+.contacto-conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+
+.footerlogo-conteiner{
+    padding: 2vw;
+}
+.footerlogo-conteiner img{
+    width: 13vw;
+}
+.footerenlaces-conteiner{
+    padding-right: 1vw;
+    text-align: justify;
+    justify-content: center;
+    text-align: end;
+    padding-top: 3vw;
+}
+.footerenlaces-conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1vw;
+}
+
+
+/*PAGINA ACCION*/
+
+/*MAIN ACCION*/
+#main-accion{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 50vh;
+    background-color: black; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main-accion .titAccion-conteiner{
+    padding: 5% 10%;
+}
+#main-accion .titAccion-conteiner h1{
+    font-size: 10vw;
+}
+#main-accion img{
+    width: 25em;
+}
+
+
+/*PELICULAS ACCION*/
+
+.pelisAccion{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 17%);
+    grid-template-rows: repeat(2,auto);
+    gap: 2em;
+    justify-content: center;
+    background-color: black;
+}
+.pelisAccion img{
+    width: 13em;
+}
+
+
+/* SECCION TERROR*/
+
+/*MAIN TERROR*/
+
+#main-terror{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 200px;
+    background-color: black; 
+    display: flex;
+    justify-content: space-around;
+}
+#main-terror .titTerror-conteiner{
+    padding: 5% 10%;
+}
+#main-terror img{
+    width: 25em;
+}
+
+
+/*PELICULAS TERROR*/
+
+.pelisTerror{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(5, 17%);
+    grid-template-rows: repeat(2,auto);
+    gap: 2em;
+    justify-content: center;
+
+}
+.pelisTerror img{
+    width: 13em;
+}
+
+#main-rom{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 200px;
+    background-color: black; 
+    display: flex;
+}
+#main-rom .titRom-conteiner{
+    padding: 5% 10%;
+}
+#main-rom img{
+    width: 25em;
+}
+.pelisRom{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(5, 17%);
+    grid-template-rows: repeat(2,auto);
+    gap: 2em;
+    justify-content: center;
+
+}
+.pelisRom img{
+    width: 13em;
+}
+#main-info{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 200px;
+    background-color: black; 
+    display: flex;
+}
+#main-info .titInfo-conteiner{
+    padding: 5% 10%;
+
+}
+#main-info img{
+    width: 500px;
+}
+#tiempo{
+    background-color: yellow;
+    text-align: center;
+}
+#tiempo h2{
+    padding-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 60px;
+}
+
+
+/* MEDIDA PARA MENOR QUE TABLET*/
+
+/*FOOTER TABLETS y MOVIL*/
+
+@media (width < 625px){
+
+    .footerenlaces-conteiner p{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1vh;
+        font-size: 2vw;
+    }
+    .footerlogo-conteiner{
+        padding: 2vw;
+}
+.contacto-conteiner{
+    padding: 2vw;
+}
+.contacto-conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2vh;
+    font-size: 1.6vw;
+}
+
+#info p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 6vh;
+    font-size: 2vw;
+    justify-content: center;
+}
+}
+@media (width < 1100px){
+    .pelisAccion{
+        display: grid;
+        width: 99%;
+        grid-template-columns: repeat(2, 17%);
+        grid-template-rows: repeat(5,auto);
+        gap: 2em;
+        justify-content: space-evenly;
+        justify-items: center;
+    
+    }
+    .pelisAccion img{
+        width: 20em;
+    }
+    #main-accion{
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+        min-height: 10vh;
+        background-color: black; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #main-accion .titAccion-conteiner{
+        padding: 5vw 10vh;
+    }
+    #main-accion .titAccion-conteiner h1{
+        font-size: 10vw;
+    }
+    #main-accion img{
+        display: none;
+    }
+}
+@media (width < 780px){
+    .pelisAccion{
+        display: grid;
+        width: 99%;
+        grid-template-columns: repeat(1, 17%);
+        grid-template-rows: repeat(10,auto);
+        gap: 2em;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+
+/*HOME MOVIL*/
+@media (height > 600px){
+    main h1{
+        line-height: 8vh;
+        font-size: 7vw;
+        margin: 0% 10%;
+        align-items: center;
+        text-align: center;
+    }
+    #main-index{
+        max-height: 45vh;
+    }
+    #novedades{
+        height: 85vh;
+        justify-items: center;
+    }
+    #novedades .imagenes-conteiner {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        justify-content: left;
+        padding: 3vw;
+        width: 90%;
+        gap: 5vw;
+        align-content: center;
+        height: 100%;
+    }
+    #novedades .imagenes-conteiner img{
+        flex: 1 0 auto;
+        width: 85vw;
+        height: 77%;
+    }
+    #info p{
+        line-height: 4.4vh;
+        font-size:2.8vw;
+        justify-content: center;
+    }
+
+}
+.navbar-custom{
+    background-color: black;
+}
