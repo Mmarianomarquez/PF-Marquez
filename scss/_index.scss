@@ -1,0 +1,104 @@
+//main
+
+#main-index{
+    text-align: center left;
+    width: 100%;
+    height: 85vh;
+    box-sizing: border-box;
+    background-color: $mainColor; 
+    background-image: url(../home/imageneshome/mainfoto.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    padding: 10vh 0 0 0;
+    margin: 0%;
+  }
+  #main-index h1{
+    line-height: 16vh;
+    font-size: 7vw;
+    margin: 0% 5%;
+    font-weight: 900;
+    color: $thirdColor;
+    align-items: center;
+  }
+
+  //seccion novedades
+
+  #novedades{
+    width: 100%;
+    height: 100vh;
+    background-color: $secondColor;
+    text-align: center;
+    justify-content: center;
+    padding: 0% 0% 3vh 0;
+    margin: 0;
+    h2{
+        padding-top: 2%;
+        margin-bottom: 2vh;
+        margin-top: 0.5%;
+        color: $mainColor;
+        font-size: 10vw;
+      }
+  }
+  .imagenes-conteiner{
+    width: 100%;
+    display: flex;
+    gap: 3vw;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-content: space-around;
+}
+#peliNovedad img{
+    width: 120%;
+    height: 60vh;
+    margin:0;
+    border: 1vw solid;
+    padding: 1%;
+    border-color: black;
+  }
+
+
+  //seccion vivi classiq
+
+#info{
+    background-image: url(../home/imageneshome/fondobutacas.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    padding: 0% 0 1% 0;
+    margin: 0;
+    width: 100%;
+    height: 70hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2{
+        color: yellow;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin: 2vh 0 0 0 ;
+        font-size: 9vw;
+    }
+    .info-conteiner{
+        background-color: rgba(255, 255, 0, 0.466);
+        width: 85vw;
+        height: 65vh;
+        text-align: center;
+        margin: 3vh 0% 5vh 0%;
+        padding: 2%;
+        border: 1vw solid yellow    ;
+    
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 7vh;
+        font-size: 1.7vw;
+        justify-content: center;
+    }
+}

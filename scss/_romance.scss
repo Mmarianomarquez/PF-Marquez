@@ -1,0 +1,36 @@
+//main romance
+
+#main-rom{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 50vh;
+    background-color: $mainColor; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .titRom-conteiner{
+        padding: 5% 10%;
+    }
+    .titRom-conteiner h1{
+        font-size: 8vw;
+    }
+    img{
+        width: 25em;
+    }
+}
+
+//romance peliculas
+
+.pelisRom{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(5, 17%);
+    grid-template-rows: repeat(2,auto);
+    gap: 2em;
+    justify-content: center;
+    img{
+        width: 13em;
+    }
+}

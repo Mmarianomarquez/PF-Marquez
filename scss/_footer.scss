@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: $mainColor;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+.contacto-conteiner{
+    padding: 2vw;
+}
+.contacto-conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    color: $thirdColor;
+    line-height: 20px;
+}
+.footerlogo-conteiner{
+    padding: 2vw;
+}
+.footerlogo-conteiner img{
+    width: 13vw;
+}
+.footerenlaces-conteiner{
+    padding-right: 1vw;
+    text-align: justify;
+    justify-content: center;
+    text-align: end;
+    padding-top: 3vw;
+}
+.footerenlaces-conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    color: $thirdColor;
+    line-height: 1vw;
+}

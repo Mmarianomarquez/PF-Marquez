@@ -1,0 +1,65 @@
+//main info
+
+#main-info{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 200px;
+    background-color: $mainColor; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .titInfo-conteiner{
+        padding: 5% 10%;
+    
+    }
+    .titInfo-conteiner h1{
+        font-size: 8vw;
+    }
+    img{
+        width: 60%;
+    }
+}
+
+//tiempo info 
+
+#tiempo{
+    background-color: $secondColor;
+    text-align: center;
+    h2{
+        padding-top: 40px;
+        margin-bottom: 30px;
+        font-family: 'Montserrat';
+        color: $mainColor;
+        font-size: 60px;
+    }
+}
+
+.nosotros-conteiner{
+    display: flex;
+    background-color: rgba(12, 12, 12, 0.733);
+    margin: 2em;
+    border-radius: 2em;
+    padding: 2em;
+    align-items: center;
+    border: 1vw solid rgb(55, 55, 14);
+    justify-content: space-around;
+}
+.textoNosotros{
+    padding-inline: 3em;
+    padding-block: 0;
+    line-height: 2em;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+.textoNosotros p{
+    color: rgb(255, 255, 255);
+}
+
+.imgNosotros{
+    padding-inline: 2em;
+    img{
+        border: 1em solid black;
+    }
+}

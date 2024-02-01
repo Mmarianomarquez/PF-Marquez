@@ -1,0 +1,36 @@
+//main terror
+
+#main-terror{
+    text-align: center left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 200px;
+    background-color: $mainColor; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .titTerror-conteiner{
+        padding: 5% 10%;
+    }
+    .titTerror-conteiner h1{
+        font-size: 10vw;
+    }
+    img{
+        width: 25em;
+    }
+}
+
+//terror peliculas
+
+.pelisTerror{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(5, 17%);
+    grid-template-rows: repeat(2,auto);
+    gap: 2em;
+    justify-content: center;
+    img{
+        width: 13em;
+    }
+}

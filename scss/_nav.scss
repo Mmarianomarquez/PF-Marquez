@@ -1,0 +1,29 @@
+
+.nav-item a{
+    color: $thirdColor;
+}
+nav img{
+    width: 10vw;
+    margin: 0vh;
+    margin-top: 0;
+    margin-left: 1vw;
+  }
+  .navas{
+    background-color: $mainColor;
+}
+nav img{
+    width: 10vw;
+    margin: 0vh;
+    margin-top: 0;
+    margin-left: 1vw;
+  }
+.dropdown-menu a{
+    color: $mainColor;
+}
+.dropdown-menu{
+    background-color: rgb(187, 187, 124);
+}
+
+.nav-item a:hover{
+    color:$secondColor ;
+}
