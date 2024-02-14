@@ -47,6 +47,8 @@ nav img {
 
 .nav-item a:hover {
   color: yellow;
+  border-bottom: 1em;
+  border-color: yellow;
 }
 
 footer {
