@@ -1,7 +1,9 @@
 
 .nav-item a{
     color: $thirdColor;
-    
+    border-bottom: 0cm rgba(255, 255, 0, 0);
+    transition: all 3ms;
+
 }
 nav img{
     width: 10vw;
@@ -27,6 +29,5 @@ nav img{
 
 .nav-item a:hover{
     color:$secondColor ;
-    border-bottom: 1em;
-    border-color: $secondColor;
+    border-bottom: .2em solid $secondColor;
 }

@@ -1,24 +1,6 @@
 //footer tablets  y movil
 @media (width < 625px){
-
-    .footerenlaces-conteiner p{
-        font-family: 'Montserrat', sans-serif;
-        color: rgb(255, 255, 255);
-        line-height: 1vh;
-        font-size: 2vw;
-    }
-    .footerlogo-conteiner{
-        padding: 2vw;
-}
-.contacto-conteiner{
-    padding: 2vw;
-}
-.contacto-conteiner p{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 255, 255);
-    line-height: 2vh;
-    font-size: 1.6vw;
-}
+ 
 //info
 #info p{
     font-family: 'Montserrat', sans-serif;
@@ -170,6 +152,39 @@
 
 //paginas menor a 780px
 @media (width < 780px){
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,96%);
+        grid-template-rows: repeat(3,20%);
+        gap: 3vh;
+        padding-top: 3vh;
+    }
+
+    .footerenlaces-conteiner p{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.5vh;
+        font-size: 3vw;
+        text-align: left;
+    }
+    .footerlogo-conteiner{
+        padding: 2vw;
+        text-align: center;
+        img{
+            width: 20vw;
+        }
+
+}
+.contacto-conteiner{
+    padding: 2vw;
+    padding-top: 3vh;
+}
+.contacto-conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2vh;
+    font-size: 3vw;
+}
     //accion
     .pelisAccion{
         display: grid;
